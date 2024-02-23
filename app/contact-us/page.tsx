@@ -9,15 +9,15 @@ const FormContainer = () => {
             <form className={styles.form}>
                 <div className={styles['form-group']}>
                     <label htmlFor="textarea" className={styles.label}>Name</label>
-                    <input required="" name="text" id="text" type="text" className={styles.input} />
+                    <input required={true} name="text" id="text" type="text" className={styles.input} />
                 </div>
                 <div className={styles['form-group']}>
                     <label htmlFor="email" className={styles.label}>Email</label>
-                    <input required="" name="email" id="email" type="text" className={styles.input} />
+                    <input required={true} name="email" id="email" type="text" className={styles.input} />
                 </div>
                 <div className={styles['form-group']}>
                     <label htmlFor="textarea" className={styles.label}>How Can We Help You?</label>
-                    <textarea required="" cols="50" rows="10" id="textarea" name="textarea" className={styles.textarea}></textarea>
+                    <textarea required={true} cols={50} rows={10} id="textarea" name="textarea" className={styles.textarea}></textarea>
                 </div>
                 <button type="submit" className={styles['form-submit-btn']}>
                     Submit
