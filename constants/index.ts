@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '/', key: 'home', label: 'Fitster Programs' },
+  { href: '/', key: 'how_hilink_work', label: 'Articles' },
+  { href: '/', key: 'services', label: 'Community' },
+  { href: '/faq', key: 'pricing ', label: 'FAQ' },
+  { href: '/contact-us', key: 'contact_us', label: 'Contact Us' },
 ];
 
 // CAMP SECTION
@@ -18,32 +18,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Personalized Exercise Recommendations',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'AI analyzes your habits, fitness level, and health goals to suggest tailored physical and mental exercises.',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Habit Tracking:',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Allows users to input and track daily routines, sleep patterns, nutrition, and mood.",
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Adaptive Workouts:',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'The platform adapts exercise routines as users progress, ensuring they remain challenging yet achievable.',
   },
   {
-    title: 'Many new locations every month',
+    title: 'Mental Health Assessment',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'AI assesses your mental well-being through mood tracking and offers mindfulness exercises or stress-relief techniques.',
   },
 ];
 
@@ -52,17 +52,14 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
+      'Sign Up',
       'Privacy Policy',
       'Contact Us',
     ],
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: ['Test', 'Test', 'Test'],
   },
 ];
 
@@ -70,7 +67,7 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
     { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Email Officer', value: 'test@test.com' },
   ],
 };
 
@@ -81,6 +78,6 @@ export const SOCIALS = {
     '/instagram.svg',
     '/twitter.svg',
     '/youtube.svg',
-    '/wordpress.svg',
+    // '/wordpress.svg',
   ],
 };

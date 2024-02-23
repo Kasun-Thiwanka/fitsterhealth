@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+    <body style={{ backgroundColor: 'black' }}>
         <Navbar />
         <main className="relative overflow-hidden">
           {children}
